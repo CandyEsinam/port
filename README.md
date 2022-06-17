@@ -1,2 +1,2 @@
 # port
-This is Amalitech portfolio project (Communucation &amp; Development) Scrum initiative.
+This is Amalitech portfolio project (Communication and Development project) Scrum initiative.

@@ -7,8 +7,8 @@ Designs: https://www.figma.com/file/RlbB2sZYZx9pgj8CMz7tzP/minimalist-portfolio-
 URL: https://candyesinam.github.io/port/
 
 
-File Structure
-
+File Structure:
+```
 ├── assets
 │   ├── custom
 │   │   └── css
@@ -33,3 +33,4 @@ assets: contains custom, images, and other HTLM page
 assets/custom/css: contains css files
 assets/images: contains all images used 
 assets/pages: contains other html files anchored in index.html 
+```

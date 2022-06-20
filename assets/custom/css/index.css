@@ -1,3 +1,6 @@
+main {
+  height: auto;
+}
 .empty-col-separator {
   width: 68%;
 }
@@ -12,7 +15,38 @@
   position: absolute;
   background-color: var(--white);
   top: 55%;
-  left: 10%;
+  left: 10.7%;
 }
 
-/* components */
+.about-me-section {
+  margin-top: 80px;
+  margin-left: -4px;
+  width: 98%;
+  height: auto;
+  display: flex;
+}
+.about-me-section > div {
+  width: 40%;
+  height: auto;
+}
+.about-me-section > div:nth-child(1) {
+  width: 50%;
+}
+.about-me-section > div:nth-child(2) {
+  width: 10%;
+}
+
+.about-me-section > div:nth-child(3) {
+  width: 30%;
+  padding: 10px;
+  text-align: start;
+}
+#about-me-title {
+  text-align: left;
+  margin-left: -50px;
+  margin-bottom: -20px;
+}
+.about-me-section-container > img {
+  width: 100%;
+  height: 90%;
+}

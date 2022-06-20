@@ -50,6 +50,10 @@ p {
 }
 .visit {
   border: 1px solid #33323d;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7693ba07bbace8ac014ae5e80bc8832d37527a8d
   display: flex;
   width: 178px;
   height: 40px;
@@ -72,6 +76,10 @@ div > a {
   text-align: left;
 }
 .bookmark_info2 {
+<<<<<<< HEAD
+=======
+  /* margin-top: 3em; */
+>>>>>>> 7693ba07bbace8ac014ae5e80bc8832d37527a8d
   margin-left: 12em;
   padding-bottom: 10px;
   padding-right: 50px;

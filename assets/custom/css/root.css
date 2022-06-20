@@ -59,6 +59,7 @@ footer {
   height: 314px;
   display: flex;
   justify-content: center;
+  font-family: ;
 }
 .footer-container {
   width: 78%;
@@ -104,6 +105,7 @@ footer {
   display: flex;
   align-items: center;
   color: var(--white);
+  font-family: "Public Sans", sans-serif;
 }
 .foot-notes > .foot-nav-items > ul li,
 .social-icons > ul li {

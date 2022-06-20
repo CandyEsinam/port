@@ -1,0 +1,26 @@
+main {
+  height: auto;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  width: 64%;
+  border-top: 1px solid var(--LightGreyTextField);
+  margin-top: 48px;
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.div1 > h2,
+.div2 > h2 {
+  margin-left: -30px;
+}

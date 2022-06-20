@@ -158,3 +158,22 @@ p {
   font-size: 15px;
   line-height: 30px;
 } */
+
+/* component */
+.secondary-btn {
+  width: 200px;
+  height: 48px;
+  background-color: var(--GrayishDarkBlue);
+  color: var(--white);
+  border: unset;
+  font-family: Public Sans;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.secondary-btn {
+  background-color: unset;
+  border: 1px solid var(--DarkBlue);
+  color: var(--DarkBlue);
+  padding-left: 16%;
+}

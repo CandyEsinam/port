@@ -1,0 +1,7 @@
+/* mobile */
+
+/* tablet */
+@media screen and (min-device-width: 768px) {}
+
+/* desktop */
+@media screen and (max-width: 768px) {}

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;600;700&family=Public+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2rem;
+	margin-bottom: 4rem;
+	display: flex;
+	justify-content: space-between;
+	height: 32px;
+}
+
+#nav-items-list{
+	display: none;
+}
+
+#nav-icon{
+	color: #33323D;
+}
+
+main{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	row-gap: 2rem;
+}
+
+#footnote{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	row-gap: 4rem;
+	align-items: center;
+}
+
+strong{
+	font-family: 'Ibarra Real Nova';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 42px;
+	text-align: center;
+	letter-spacing: -0.357143px;
+	color: #33323D;
+}
+
+hr{
+	display: none;
+}
+
+#contact{
+	font-family: 'Public Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #33323D;
+	border: 1px solid #33323D;
+	height: 3rem;
+	width: 10rem;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#main-footer-container{
+	background: #33323D;
+    display: flex;
+    align-content: center;
+}
+
+#main-footer{
+	display: flex;
+	flex-direction: column;
+	row-gap: 2rem;
+	align-items: center;
+	justify-content: space-between;
+	width: 90%;
+	margin: 2rem auto;
+}
+
+#left{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 2rem;
+}
+
+#secondary-nav ul{
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+	font-family: 'Public Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	list-style: none;
+}
+
+#socials{
+	display: flex;
+	column-gap: 1rem;
+}
+
+#socials div {
+	width: 24px;
+	height: 24px;
+}

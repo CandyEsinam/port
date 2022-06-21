@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+:root {
+  --SlightlyDesaturatedCyan: #5fb4a2;
+  --DarkBlue: #203a4c;
+  --GrayishDarkBlue: #33323d;
+  --VeryLightGreyBG: #fafafa;
+  --LightGreyTextField: #eaeaeb;
+  --BrightRedErrors: #f43030;
+  --white: #fff;
+}
+
 header{
 	width: 90%;
 	margin-left: auto;
@@ -17,34 +27,38 @@ header{
 	height: 32px;
 }
 
-#nav-items-list{
-	display: none;
+#primary-nav ul{
+	display: flex;
+	justify-content: space-between;
+	column-gap: 3rem;
+	list-style: none;
+	font-family: 'Public Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 }
 
-#nav-icon{
+#primary-nav ul a{
+	text-decoration: none;
 	color: #33323D;
 }
 
-main{
+main {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-footer{
-	display: flex;
-	flex-direction: column;
-	row-gap: 2rem;
 }
 
 #footnote{
-	display: flex;
-	flex-direction: column;
 	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	row-gap: 4rem;
-	align-items: center;
+	margin: 4rem auto;
+	/* margin-left: auto;
+	margin-right: auto; */
+	display: flex;
+	justify-content: space-between;
 }
 
 strong{
@@ -53,7 +67,6 @@ strong{
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 42px;
-	text-align: center;
 	letter-spacing: -0.357143px;
 	color: #33323D;
 }
@@ -76,41 +89,44 @@ strong{
 
 #main-footer-container{
 	background: #33323D;
+	height: 4rem;
     display: flex;
     align-content: center;
 }
 
 #main-footer{
 	display: flex;
-	flex-direction: column;
-	row-gap: 2rem;
 	align-items: center;
 	justify-content: space-between;
 	width: 90%;
-	margin: 2rem auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #left{
 	display: flex;
-	flex-direction: column;
 	align-items: center;
-	row-gap: 2rem;
+}
+
+#secondary-logo{
+	color: #FFFFFF;
+	margin-right: 4rem;
+	
 }
 
 #secondary-nav ul{
 	display: flex;
-	flex-direction: column;
-	row-gap: 1rem;
+	justify-content: space-between;
+	column-gap: 3rem;
+	list-style: none;
 	font-family: 'Public Sans';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 14px;
-	text-align: center;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	color: #FFFFFF;
-	list-style: none;
 }
 
 #socials{
@@ -122,3 +138,4 @@ strong{
 	width: 24px;
 	height: 24px;
 }
+

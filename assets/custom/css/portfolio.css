@@ -1,7 +1,68 @@
 /* mobile */
+    @import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans&display=swap");
 
-/* desktop */
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.portfolio-image {
+    width: 100%;
+}
+
+
+.portfolio-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.portfolio-text h2 {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+
+}
+
+.portfolio-text p {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+
+.bookmark-insure-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+
+}
+
+.fylo-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+
+}
+
+
+
+
+
+
+
+
+/* desktop
 @media screen and (min-width: 768px) {}
 
 /* tablet */
-@media screen and (min-device-width: 480px) {}
+/* @media screen and (min-device-width: 480px) {}  */

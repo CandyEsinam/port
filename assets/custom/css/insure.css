@@ -1,48 +1,43 @@
 /* mobile */
 
-/* main{
-	display: flex;
-	flex-direction: column;
-	row-gap: 2rem;
-} */
 #insure-hero {
-	background-image: url("../../images/detail/mobile/image-insure-hero.jpg");
+	background-image: url("../../images/detail/mobile/image-insure-hero@2x.jpg");
 }
 
 .preview-1{
-	background-image: url("../../images/detail/mobile/image-insure-preview-1.jpg");
+	background-image: url("../../images/detail/mobile/image-insure-preview-1@2x.jpg");
 }
 
 .preview-2{
-	background-image: url("../../images/detail/mobile/image-insure-preview-2.jpg");
+	background-image: url("../../images/detail/mobile/image-insure-preview-2@2x.jpg");
 }
 
 /* tablet*/
 @media screen and (min-device-width: 480px) {
 	#insure-hero {
-		background-image: url("../../images/detail/tablet/image-insure-hero.jpg");
+		background-image: url("../../images/detail/tablet/image-insure-hero@2x.jpg");
 	}
 	
 	.preview-1{
-		background-image: url("../../images/detail/tablet/image-insure-preview-1.jpg");
+		background-image: url("../../images/detail/tablet/image-insure-preview-1@2x.jpg");
 	}
 	
 	.preview-2{
-		background-image: url("../../images/detail/tablet/image-insure-preview-2.jpg");
+		background-image: url("../../images/detail/tablet/image-insure-preview-2@2x.jpg");
 	}
 }
 
 /* desktop */
 @media screen and (min-device-width: 1024px) {
 	#insure-hero {
-		background-image: url("../../images/detail/desktop/image-insure-hero.jpg");
+		background-image: url("../../images/detail/desktop/image-insure-hero@2x.jpg");
 	}
 	
 	.preview-1{
-		background-image: url("../../images/detail/desktop/image-insure-preview-1.jpg");
+		background-image: url("../../images/detail/desktop/image-insure-preview-1@2x.jpg");
 	}
 	
 	.preview-2{
-		background-image: url("../../images/detail/desktop/image-insure-preview-2.jpg");
+		background-image: url("../../images/detail/desktop/image-insure-preview-2@2x.jpg");
 	}
 }

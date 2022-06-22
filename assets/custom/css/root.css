@@ -31,8 +31,84 @@ header{
 }
 
 main{
+	display: flex;
+	flex-direction: column;
+	row-gap: 2rem;
 	width: 90%;
 	margin: 2rem auto;
+}
+
+.image {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hero {
+	height: 10rem;
+}
+
+main h1 {
+	font-family: 'Ibarra Real Nova';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 42px;
+	letter-spacing: -0.357143px;
+	color: #33323D;
+}
+
+p{
+	font-family: 'Public Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 30px;
+	color: #33323D;
+	mix-blend-mode: normal;
+	opacity: 0.8;
+}
+
+#project-summary{
+	display: flex;
+	flex-direction: column;
+	row-gap: 2rem;
+	margin-bottom: 2rem;
+}
+
+h2{
+	font-family: 'Ibarra Real Nova';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 42px;
+	letter-spacing: -0.285714px;
+	color: #33323D;
+}
+
+em{
+	font-family: 'Public Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 30px;
+	color: #5FB4A2;
+}
+
+#project-bg{
+	display: flex;
+	flex-direction: column;
+	row-gap: 2rem;
+}
+
+#static-preview{
+	display: flex;
+	flex-direction: column;
+	row-gap: 2rem;
+}
+
+.preview-1, .preview-2{
+	height: 8rem;
 }
 
 footer{
@@ -129,6 +205,11 @@ button{
 	list-style: none;
 }
 
+#secondary-nav #nav-items-list a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
 #socials{
 	display: flex;
 	column-gap: 1rem;
@@ -139,7 +220,7 @@ button{
 	height: 24px;
 }
 
-/* tablet and desktop*/
+/* tablet*/
 @media screen and (min-device-width: 480px) {
 	#primary-nav{
 		display: flex;
@@ -167,6 +248,24 @@ button{
 	
 	#nav-icon{
 		display: none;
+	}
+
+	.hero {
+		height: 40vw;
+	}
+
+	#project-summary div{
+		display: flex;
+		justify-content: space-between;
+		column-gap: 40%;
+	}
+
+	em{
+		margin-top: -20vw;
+	}
+
+	.preview-1, .preview-2{
+		height: 23rem;
 	}
 
 	#footnote{
@@ -209,9 +308,34 @@ button{
 		flex-direction: row;
 		column-gap: 3rem;
 	}
+}
 
-	#secondary-nav #nav-items-list a{
-		text-decoration: none;
-		color: #FFFFFF;
+/* desktop */
+@media screen and (min-device-width: 1024px) {
+	.main-body{
+		display: flex;
+		flex-wrap: wrap;
+		column-gap: 10%;
+	}
+	
+	#project-summary{
+		width: 40%;
+	}
+
+	#project-summary div{
+		flex-direction: column;
+	}
+
+	em{
+		margin-top: 0;
+	}
+
+	#project-bg {
+		width: 50%;
+	}
+
+	#static-preview{
+		width: 50%;
+		margin-left: 50%;
 	}
 }

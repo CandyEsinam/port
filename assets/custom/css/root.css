@@ -209,4 +209,9 @@ button{
 		flex-direction: row;
 		column-gap: 3rem;
 	}
+
+	#secondary-nav #nav-items-list a{
+		text-decoration: none;
+		color: #FFFFFF;
+	}
 }

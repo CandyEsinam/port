@@ -7,6 +7,12 @@ main {
     row-gap: 2rem;
 }
 
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
 .portfolio-image {
     width: 100%;
 }
@@ -17,6 +23,7 @@ main {
     flex-direction: column;
     row-gap: 2rem;
 }
+
 .portfolio-text h2 {
     font-family: 'Ibarra Real Nova';
     font-style: normal;
@@ -40,19 +47,8 @@ main {
 }
 
 
-.bookmark-insure-container {
-    display: flex;
-    flex-direction: column;
-    row-gap: 3rem;
 
-}
 
-.fylo-container {
-    display: flex;
-    flex-direction: column;
-    row-gap: 2rem;
-
-}
 
 
 

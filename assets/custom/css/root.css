@@ -32,8 +32,7 @@ header{
 
 main{
 	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 2rem auto;
 }
 
 footer{
@@ -63,7 +62,15 @@ strong{
 	color: #33323D;
 }
 
-hr{
+hr {
+    background: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+    height: 2px;
+    width: 100%;
+}
+
+#footnote hr {
 	display: none;
 }
 
@@ -168,7 +175,7 @@ button{
 		justify-content: space-between;
 	}
 
-	hr{
+	#footnote hr{
 		display: inline;
 		width: 6rem;
 		background: #33323D;

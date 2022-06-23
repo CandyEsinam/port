@@ -1,6 +1,7 @@
 /* mobile */
 
 #insure-hero {
+<<<<<<< HEAD
   background-image: url("../../images/detail/mobile/image-insure-hero@2x.jpg");
 }
 
@@ -10,10 +11,22 @@
 
 .preview-2 {
   background-image: url("../../images/detail/mobile/image-insure-preview-2@2x.jpg");
+=======
+	background-image: url("../../images/detail/mobile/image-insure-hero@2x.jpg");
+}
+
+.preview-1{
+	background-image: url("../../images/detail/mobile/image-insure-preview-1@2x.jpg");
+}
+
+.preview-2{
+	background-image: url("../../images/detail/mobile/image-insure-preview-2@2x.jpg");
+>>>>>>> a5bdac058df0481d5bd73db5da3496da415c4925
 }
 
 /* tablet*/
 @media screen and (min-device-width: 480px) {
+<<<<<<< HEAD
   #insure-hero {
     background-image: url("../../images/detail/tablet/image-insure-hero@2x.jpg");
   }
@@ -25,10 +38,24 @@
   .preview-2 {
     background-image: url("../../images/detail/tablet/image-insure-preview-2@2x.jpg");
   }
+=======
+	#insure-hero {
+		background-image: url("../../images/detail/tablet/image-insure-hero@2x.jpg");
+	}
+	
+	.preview-1{
+		background-image: url("../../images/detail/tablet/image-insure-preview-1@2x.jpg");
+	}
+	
+	.preview-2{
+		background-image: url("../../images/detail/tablet/image-insure-preview-2@2x.jpg");
+	}
+>>>>>>> a5bdac058df0481d5bd73db5da3496da415c4925
 }
 
 /* desktop */
 @media screen and (min-device-width: 1024px) {
+<<<<<<< HEAD
   #insure-hero {
     background-image: url("../../images/detail/desktop/image-insure-hero@2x.jpg");
   }
@@ -40,4 +67,17 @@
   .preview-2 {
     background-image: url("../../images/detail/desktop/image-insure-preview-2@2x.jpg");
   }
+=======
+	#insure-hero {
+		background-image: url("../../images/detail/desktop/image-insure-hero@2x.jpg");
+	}
+	
+	.preview-1{
+		background-image: url("../../images/detail/desktop/image-insure-preview-1@2x.jpg");
+	}
+	
+	.preview-2{
+		background-image: url("../../images/detail/desktop/image-insure-preview-2@2x.jpg");
+	}
+>>>>>>> a5bdac058df0481d5bd73db5da3496da415c4925
 }

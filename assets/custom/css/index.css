@@ -1,5 +1,4 @@
 /* mobile */
-
 #insure-hero {
   background-image: url("../../images/homepage/mobile/image-homepage-hero@2x.jpg");
 }
@@ -71,10 +70,12 @@
 
 /* desktop */
 @media screen and (min-device-width: 1024px) {
+  html {
+    scroll-behavior: smooth;
+  }
   #insure-hero {
     background-image: url("../../images/homepage/desktop/image-homepage-hero.jpg");
   }
-
   .about-section {
     width: 80%;
     height: auto;
@@ -155,4 +156,11 @@
     align-items: center;
     justify-content: center;
   }
+}
+a#about-link:link,
+a#about-link:visited,
+a#about-link:hover,
+a#about-link:active {
+  color: #fff !important;
+  text-decoration: none !important;
 }

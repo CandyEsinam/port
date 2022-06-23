@@ -1,7 +1,14 @@
-/* mobile */
+.get_in_touch {
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+/* tablet*/
+@media screen and (min-device-width: 480px) {
+
+}
 
 /* desktop */
-@media screen and (min-width: 768px) {}
+@media screen and (min-device-width: 1024px) {
 
-/* tablet */
-@media screen and (min-device-width: 480px) {}
+}

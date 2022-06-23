@@ -1,7 +1,82 @@
 /* mobile */
 
-/* desktop */
-@media screen and (min-width: 768px) {}
+#insure-hero {
+  background-image: url("../../images/homepage/mobile/image-homepage-hero@2x.jpg");
+}
+#about-image {
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+  background-image: url("../../images/homepage/desktop/image-homepage-profile@2x.jpg");
+  background-size: cover;
+}
+.about-section > div > h2 {
+  padding: 30px 0;
+}
+.about-section > div:nth-child(3) {
+  border-top: 1px solid #cccc;
+  border-bottom: 1px solid #cccc;
+  margin: 30px 0;
+  padding-bottom: 30px;
+}
 
-/* tablet */
-@media screen and (min-device-width: 480px) {}
+/* tablet*/
+@media screen and (min-device-width: 480px) {
+  #insure-hero {
+    background-image: url("../../images/homepage/tablet/image-homepage-hero.jpg");
+  }
+}
+
+/* desktop */
+@media screen and (min-device-width: 1024px) {
+  #insure-hero {
+    background-image: url("../../images/homepage/desktop/image-homepage-hero.jpg");
+  }
+
+  .about-section {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+  }
+  .about-section > div {
+    width: 45%;
+    height: auto;
+    display: inline-block;
+    padding: 20px 0;
+  }
+
+  .about-section > div > p {
+    font-family: Public Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 20px 0;
+  }
+  .about-section > div > h2 {
+    font-family: Ibarra Real Nova;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+  }
+  .about-section > div:nth-child(2) {
+    width: 10%;
+  }
+  .about-section > div:nth-child(3) {
+    border-top: 1px solid #cccc;
+    margin-top: 30px;
+  }
+  #about-image {
+    width: 440px;
+    height: 760px;
+    overflow: hidden;
+    background-image: url("../../images/homepage/desktop/image-homepage-profile@2x.jpg");
+    background-size: 620px;
+    background-repeat: no-repeat;
+    background-position: -220px;
+  }
+}

@@ -3,6 +3,7 @@ main {
     flex-direction: column;
     row-gap: 2rem;
 
+
 }
 
 em {
@@ -28,7 +29,6 @@ em {
 }
 
 p {
-
     margin-top: 2em;
     margin-bottom: 2em;
 }
@@ -54,7 +54,7 @@ label {
 
 input {
     height: 48px;
-    width: 311px;
+    width: 100%;
     left: 0px;
     top: 0px;
     border-radius: 0px;
@@ -67,7 +67,7 @@ input {
 
 #message {
     height: 96px;
-    width: 311px;
+    display: flex;
 }
 
 .send {
@@ -79,12 +79,97 @@ input {
     top: 0px;
     border-radius: 0px;
     margin-bottom: 4em;
-    
+
 }
 
 
 /* tablet*/
-@media screen and (min-device-width: 480px) {}
+@media screen and (min-device-width: 480px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+
+    }
+
+    em {
+
+        font-family: Ibarra Real Nova;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: -0.3571428656578064px;
+        text-align: left;
+        color: #33323D;
+
+    }
+
+    .get_in_touch {
+        border-top: 1px solid rgba(51, 50, 61, .1);
+        border-bottom: 1px solid rgba(51, 50, 61, .1);
+    }
+
+    .contact_me {
+        display: flex;
+        flex-direction: column;
+    }
+
+    p {
+
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    label {
+        margin-top: 1em;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        font-family: Public Sans;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: rgba(51, 50, 61, .8);
+    }
+
+    input {
+        height: 48px;
+        width: 80;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        background-color: rgba(51, 50, 61, .1);
+        color: rgba(51, 50, 61, .4);
+        border: transparent;
+        padding-left: 1em;
+        margin-bottom: 2em;
+    }
+
+    #message {
+        height: 96px;
+
+    }
+
+    .send {
+        background: rgba(32, 58, 76, 1);
+        color: rgba(255, 255, 255, 1);
+        height: 48px;
+        width: 200px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        margin-bottom: 4em;
+
+    }
+
+}
 
 /* desktop */
 @media screen and (min-device-width: 1024px) {}

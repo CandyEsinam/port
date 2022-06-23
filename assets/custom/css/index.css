@@ -88,7 +88,7 @@
     display: flex;
   }
   .about-section > div {
-    width: 45%;
+    width: 47%;
     height: auto;
     display: inline-block;
     padding: 20px 0;
@@ -126,5 +126,37 @@
     background-size: 620px;
     background-repeat: no-repeat;
     background-position: -220px;
+  }
+  #headline-container {
+    width: 480px;
+    height: 240px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 62%;
+    background-color: #fafafa;
+  }
+  .headline {
+    padding: 20px;
+  }
+  .primary-btn {
+    display: inline;
+    margin-left: 20px;
+    background-color: #33323d;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+  }
+  #primary-btn-dark-area {
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    background-color: #203a4c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

@@ -1,41 +1,7 @@
-#bookmark-hero {
-	background-image: url("../../images/detail/desktop/image-bookmark-hero.jpg");
-}
-
-.preview-1{
-    background-image: url("../../images/detail/tablet/image-bookmark-preview-1@2x.jpg");
-}
-
-.preview-2{
-    background-image: url("../../images/detail/desktop/image-bookmark-preview-2@2x.jpg");
-}
-
-/* tablet*/
-@media screen and (min-device-width: 480px) {
-	#bookmark-hero {
-		background-image: url("../../images/detail/desktop/image-bookmark-hero.jpg");
-	}
-	
-	.preview-1{
-		background-image: url("../../images/detail/tablet/image-bookmark-preview-1@2x.jpg");
-	}
-	
-	.preview-2{
-		background-image: url("../../images/detail/desktop/image-bookmark-preview-2@2x.jpg");
-	}
-}
+/* mobile */
 
 /* desktop */
-@media screen and (min-device-width: 1024px) {
-	#bookmark-hero {
-		background-image: url("../../images/detail/desktop/image-bookmark-hero.jpg");
-	}
-	
-	.preview-1{
-		background-image: url("../../images/detail/tablet/image-bookmark-preview-1@2x.jpg");
-	}
-	
-	.preview-2{
-		background-image: url("../../images/detail/desktop/image-bookmark-preview-2@2x.jpg");
-	}
-}
+@media screen and (min-width: 768px) {}
+
+/* tablet */
+@media screen and (min-device-width: 480px) {}

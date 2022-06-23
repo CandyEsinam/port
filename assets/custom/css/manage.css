@@ -1,48 +1,9 @@
 /* mobile */
 
-/* main{
-	display: flex;
-	flex-direction: column;
-	row-gap: 2rem;
-} */
-#insure-hero {
-  background-image: url("../../images/detail/mobile/image-manage-hero.jpg");
-}
-
-.preview-1 {
-  background-image: url("../../images/detail/mobile/image-manage-preview-1.jpg");
-}
-
-.preview-2 {
-  background-image: url("../../images/detail/mobile/image-manage-preview-2.jpg");
-}
-
-/* tablet*/
-@media screen and (min-device-width: 480px) {
-  #insure-hero {
-    background-image: url("../../images/detail/tablet/image-manage-hero.jpg");
-  }
-
-  .preview-1 {
-    background-image: url("../../images/detail/tablet/image-manage-preview-1.jpg");
-  }
-
-  .preview-2 {
-    background-image: url("../../images/detail/tablet/image-manage-preview-2.jpg");
-  }
-}
-
 /* desktop */
-@media screen and (min-device-width: 1024px) {
-  #insure-hero {
-    background-image: url("../../images/detail/desktop/image-manage-hero.jpg");
-  }
+@media screen and (min-width: 768px) {}
 
-  .preview-1 {
-    background-image: url("../../images/detail/desktop/image-manage-preview-1.jpg");
-  }
+/* tablet */
+@media screen and (min-device-width: 480px) {}
 
-  .preview-2 {
-    background-image: url("../../images/detail/desktop/image-manage-preview-2.jpg");
-  }
-}
+

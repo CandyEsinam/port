@@ -11,7 +11,7 @@ header{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 2rem;
-	margin-bottom: 4rem;
+	margin-bottom: 2rem;
 	display: flex;
 	justify-content: space-between;
 	height: 32px;
@@ -48,6 +48,12 @@ main{
 	height: 10rem;
 }
 
+.main-body{
+	display: flex;
+	flex-direction: column;
+	row-gap: 1.5rem;
+}
+
 main h1 {
 	font-family: 'Ibarra Real Nova';
 	font-style: normal;
@@ -76,6 +82,11 @@ p{
 	margin-bottom: 2rem;
 }
 
+#project-summary div{
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+}
 h2{
 	font-family: 'Ibarra Real Nova';
 	font-style: normal;
@@ -108,7 +119,7 @@ em{
 }
 
 .preview-1, .preview-2{
-	height: 8rem;
+	height: 12rem;
 }
 
 footer{
@@ -164,6 +175,7 @@ button{
 	width: 10rem;
 	margin-top: auto;
 	margin-bottom: auto;
+	background-color: white;
 }
 
 #main-footer-container{
@@ -221,7 +233,7 @@ button{
 }
 
 /* tablet*/
-@media screen and (min-device-width: 480px) {
+@media screen and (min-device-width: 680px) {
 	#primary-nav{
 		display: flex;
 		align-items: center;
@@ -256,14 +268,18 @@ button{
 
 	#project-summary div{
 		display: flex;
+		flex-direction: row;
 		justify-content: space-between;
 		column-gap: 40%;
 	}
 
 	em{
-		margin-top: -20vw;
+		margin-top: -20%;
 	}
 
+	#static-preview{
+		margin-bottom: 3rem;
+	}
 	.preview-1, .preview-2{
 		height: 23rem;
 	}
@@ -311,19 +327,24 @@ button{
 }
 
 /* desktop */
-@media screen and (min-device-width: 1024px) {
+@media screen and (min-device-width: 1008px) {
+	.hero{
+		margin-bottom: 2rem;
+	}
 	.main-body{
 		display: flex;
+		flex-direction: row;
 		flex-wrap: wrap;
 		column-gap: 10%;
 	}
 	
 	#project-summary{
-		width: 40%;
+		width: 35%;
 	}
 
 	#project-summary div{
 		flex-direction: column;
+		margin-top: 3rem;
 	}
 
 	em{
@@ -331,11 +352,16 @@ button{
 	}
 
 	#project-bg {
-		width: 50%;
+		width: 55%;
 	}
 
 	#static-preview{
-		width: 50%;
-		margin-left: 50%;
+		width: 55%;
+		margin-left: 45%;
+		margin-top: -8rem;
+	}
+
+	hr{
+		display: none;
 	}
 }

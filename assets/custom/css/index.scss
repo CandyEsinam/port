@@ -1,24 +1,20 @@
 html {
   scroll-behavior: smooth;
 }
-
-#down-arrow {
-  fill: none;
-  stroke: #5FB4A2;
-  fill-rule: evenodd;
+#down-arrow{
+    fill: none;
+    stroke: #5FB4A2;
+    fill-rule: evenodd;
 }
-
 .about-me-btn {
   border: unset;
 }
-
 .about-me-btn:hover {
-  cursor: pointer;
-  background-color: #5FB4A2;
-}
-
-.about-me-btn:hover #down-arrow {
-  stroke: #FFF;
+    cursor: pointer;
+    background-color: #5FB4A2;
+  & #down-arrow{
+    stroke: #FFF;
+  }
 }
 
 /* mobile */
@@ -46,18 +42,11 @@ strong {
 }
 
 .about-me-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-column-gap: 1rem;
-          column-gap: 1rem;
+  justify-content: flex-start;
+  column-gap: 1rem;
   padding: 1rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background: #203a4c;
   font-family: "Public Sans";
   font-style: normal;
@@ -90,11 +79,13 @@ h2 {
     background-image: url("../../images/homepage/tablet/image-homepage-hero@2x.jpg");
     height: 37rem;
   }
+
   .homepage-img {
     background-image: url("../../images/homepage/tablet/image-homepage-profile@2x.jpg");
     height: 45rem;
     width: 40%;
   }
+
   #intro {
     margin-top: -18rem;
     padding-top: 2rem;
@@ -102,18 +93,16 @@ h2 {
     width: 70%;
     background-color: #ffffff;
   }
+
   .about-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     /* column-gap: 10%; */
   }
+
   #about-section {
     width: 50%;
   }
   .about-me-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .about-me-container > :nth-child(2) {
@@ -128,6 +117,7 @@ h2 {
     background-image: url("../../images/homepage/desktop/image-homepage-hero@2x.jpg");
     background-size: cover;
   }
+
   .homepage-img {
     width: 340px;
     height: 720px;
@@ -135,8 +125,6 @@ h2 {
     background-position: -200px;
   }
   .about-me-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .about-me-container > :nth-child(2) {
@@ -146,4 +134,3 @@ h2 {
     width: 36%;
   }
 }
-/*# sourceMappingURL=index.css.map */

@@ -1,5 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
 /* mobile */
-
 .hero {
   background-image: url("../../images/homepage/mobile/image-homepage-hero@2x.jpg");
   background-repeat: no-repeat;

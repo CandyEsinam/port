@@ -1,7 +1,43 @@
 /* mobile */
 
-/* desktop */
-@media screen and (min-width: 768px) {}
+.hero {
+	background-image: url("../../images/detail/mobile/image-fylo-hero@2x.jpg");
+}
 
-/* tablet */
-@media screen and (min-device-width: 480px) {}
+.preview-1{
+	background-image: url("../../images/detail/mobile/image-fylo-preview-1@2x.jpg");
+}
+
+.preview-2{
+	background-image: url("../../images/detail/mobile/image-fylo-preview-2@2x.jpg");
+}
+
+/* tablet*/
+@media screen and (min-device-width: 480px) {
+	.hero {
+		background-image: url("../../images/detail/tablet/image-fylo-hero@2x.jpg");
+	}
+	
+	.preview-1{
+		background-image: url("../../images/detail/tablet/image-fylo-preview-1@2x.jpg");
+	}
+	
+	.preview-2{
+		background-image: url("../../images/detail/tablet/image-fylo-preview-2@2x.jpg");
+	}
+}
+
+/* desktop */
+@media screen and (min-device-width: 1024px) {
+	.hero {
+		background-image: url("../../images/detail/desktop/image-fylo-hero@2x.jpg");
+	}
+	
+	.preview-1{
+		background-image: url("../../images/detail/desktop/image-fylo-preview-1@2x.jpg");
+	}
+	
+	.preview-2{
+		background-image: url("../../images/detail/desktop/image-fylo-preview-2@2x.jpg");
+	}
+}

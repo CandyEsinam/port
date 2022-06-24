@@ -31,12 +31,13 @@
             </ul>
             <!-- https://www.w3schools.com/howto/howto_js_mobile_navbar.asp -->
             <a href="javascript:void(0);" id="nav-icon" onclick="myFunction()">
-                <i class="fa fa-bars fa-2x"></i>
+                <!-- <i class="fa fa-bars fa-2x"></i> -->
+                <img src="./assets/images/icons/hamburger.svg" alt="">
             </a>
         </nav>
     </header>
     <main>
-        <div class="image hero" id="insure-hero">
+        <div class="image hero">
         </div>
         <div class="main-body">
             <hr id="first-hr">
@@ -74,14 +75,26 @@
                 <div class="image preview-2">
                 </div>
             </section>
-            <hr>
         </div>
-        Bookmark
-        Previous Project
-
-        Fylo
-        Next Project
-
+        <table>
+            <tr>
+                <td class="prev">
+                    <a href="./bookmark.html">
+                    <img src="../images/icons/arrow-left.svg" alt="">    
+                    <div class="project-name">Bookmark</div> 
+                    <div class="navigation-button">Previous Project</div>
+                    </a>
+                </td>                
+                <td class="next">
+                <a href="./fylo.html">
+                    <img src="../images/icons/arrow-right.svg" alt="">
+                    <div class="project-name">Fylo</div> 
+                    <div class="navigation-button">Next Project</div>
+                </a>
+                </td>
+            </a>
+            </tr>
+        </table>
     </main>
     <!-- footer -->
     <footer>
@@ -91,9 +104,11 @@
                 a project together?
             </strong>
             <hr>
-            <button id="contact">
+            <a href="./contact.html">
+                <button id="contact">
                 CONTACT ME
-            </button>
+                </button>
+            </a>  
         </div>
         <div id="main-footer-container">
             <div id="main-footer">

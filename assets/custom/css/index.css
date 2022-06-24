@@ -1,99 +1,118 @@
 /* mobile */
 
 .hero {
-	background-image: url("../../images/homepage/mobile/image-homepage-hero@2x.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
+  background-image: url("../../images/homepage/mobile/image-homepage-hero@2x.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.image{
-    height: 20rem;
+.image {
+  height: 20rem;
 }
 
-strong{
-    display: block;
-    text-align: left;
-    font-family: 'Ibarra Real Nova';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 42px;
-    letter-spacing: -0.357143px;
-    color: #33323D;
-    margin-bottom: 2rem;
+strong {
+  display: block;
+  text-align: left;
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323d;
+  margin-bottom: 2rem;
 }
 
-.about-me-btn{
-    display: flex;
-    justify-content: flex-start;
-    column-gap: 1rem;
-    padding: 1rem;
-    align-items: center;
-    background: #203A4C;
-    font-family: 'Public Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
+.about-me-btn {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+  background: #203a4c;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
-.homepage-img{
-    background-image: url("../../images/homepage/mobile/image-homepage-profile@2x.jpg")
+.homepage-img {
+  background-image: url("../../images/homepage/mobile/image-homepage-profile@2x.jpg");
 }
 
 h2 {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
-.go-to-portfolio-btn{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.go-to-portfolio-btn {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
-
 
 /* tablet*/
 @media screen and (min-device-width: 480px) {
-	.hero {
-		background-image: url("../../images/homepage/tablet/image-homepage-hero@2x.jpg");
-        height: 37rem;
-	}
+  .hero {
+    background-image: url("../../images/homepage/tablet/image-homepage-hero@2x.jpg");
+    height: 37rem;
+  }
 
-    .homepage-img{
-        background-image: url("../../images/homepage/tablet/image-homepage-profile@2x.jpg");
-        height: 80rem;
-        width: 40%;
-    }
+  .homepage-img {
+    background-image: url("../../images/homepage/tablet/image-homepage-profile@2x.jpg");
+    height: 45rem;
+    width: 40%;
+  }
 
-    #intro{
-        margin-top: -18rem;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        width: 70%;
-        background-color: #FFFFFF;
-    }
+  #intro {
+    margin-top: -18rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 70%;
+    background-color: #ffffff;
+  }
 
-    .about-container{
-        display: flex;
-        /* column-gap: 10%; */
-    }
+  .about-container {
+    display: flex;
+    /* column-gap: 10%; */
+  }
 
-    #about-section {
-        width: 50%;
-    }
+  #about-section {
+    width: 50%;
+  }
+  .about-me-container {
+    display: flex;
+  }
+  .about-me-container > :nth-child(2) {
+    margin-left: 100px;
+  }
 }
 
 /* desktop */
 @media screen and (min-device-width: 1024px) {
-	.hero {
-		background-image: url("../../images/homepage/desktop/image-homepage-hero@2x.jpg");
-	}
+  .hero {
+    width: 100%;
+    background-image: url("../../images/homepage/desktop/image-homepage-hero@2x.jpg");
+    background-size: cover;
+  }
 
-    .homepage-img{
-        background-image: url("../../images/homepage/desktop/image-homepage-profile@2x.jpg")
-    }
+  .homepage-img {
+    width: 340px;
+    height: 720px;
+    background-image: url("../../images/homepage/desktop/image-homepage-profile@2x.jpg");
+    background-position: -200px;
+  }
+  .about-me-container {
+    display: flex;
+  }
+  .about-me-container > :nth-child(2) {
+    margin-left: 100px;
+  }
+  #intro {
+    width: 36%;
+  }
 }

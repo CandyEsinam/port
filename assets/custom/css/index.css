@@ -1,7 +1,99 @@
 /* mobile */
 
-/* desktop */
-@media screen and (min-width: 768px) {}
+.hero {
+	background-image: url("../../images/homepage/mobile/image-homepage-hero@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
-/* tablet */
-@media screen and (min-device-width: 480px) {}
+.image{
+    height: 20rem;
+}
+
+strong{
+    display: block;
+    text-align: left;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+    margin-bottom: 2rem;
+}
+
+.about-me-btn{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 1rem;
+    padding: 1rem;
+    align-items: center;
+    background: #203A4C;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.homepage-img{
+    background-image: url("../../images/homepage/mobile/image-homepage-profile@2x.jpg")
+}
+
+h2 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.go-to-portfolio-btn{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/* tablet*/
+@media screen and (min-device-width: 480px) {
+	.hero {
+		background-image: url("../../images/homepage/tablet/image-homepage-hero@2x.jpg");
+        height: 37rem;
+	}
+
+    .homepage-img{
+        background-image: url("../../images/homepage/tablet/image-homepage-profile@2x.jpg");
+        height: 80rem;
+        width: 40%;
+    }
+
+    #intro{
+        margin-top: -18rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 70%;
+        background-color: #FFFFFF;
+    }
+
+    .about-container{
+        display: flex;
+        /* column-gap: 10%; */
+    }
+
+    #about-section {
+        width: 50%;
+    }
+}
+
+/* desktop */
+@media screen and (min-device-width: 1024px) {
+	.hero {
+		background-image: url("../../images/homepage/desktop/image-homepage-hero@2x.jpg");
+	}
+
+    .homepage-img{
+        background-image: url("../../images/homepage/desktop/image-homepage-profile@2x.jpg")
+    }
+}

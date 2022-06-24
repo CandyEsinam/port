@@ -1,6 +1,6 @@
 /* mobile */
 
-#insure-hero {
+.hero {
 	background-image: url("../../images/detail/mobile/image-insure-hero@2x.jpg");
 }
 
@@ -14,7 +14,7 @@
 
 /* tablet*/
 @media screen and (min-device-width: 480px) {
-	#insure-hero {
+	.hero {
 		background-image: url("../../images/detail/tablet/image-insure-hero@2x.jpg");
 	}
 	
@@ -29,7 +29,7 @@
 
 /* desktop */
 @media screen and (min-device-width: 1024px) {
-	#insure-hero {
+	.hero {
 		background-image: url("../../images/detail/desktop/image-insure-hero@2x.jpg");
 	}
 	

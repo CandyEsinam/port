@@ -122,6 +122,49 @@ em{
 	height: 12rem;
 }
 
+table{
+	border-top: 1px solid rgba(	20, 19.6, 23.9, 0.15);
+	border-bottom: 1px solid rgba(	20, 19.6, 23.9, 0.15);
+	/* mix-blend-mode: normal;
+	opacity: 0.15; */
+}
+
+td {
+	width: 50%;
+	padding: 1.5rem 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.project-name {
+	font-family: 'Ibarra Real Nova';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 36px;
+	letter-spacing: -0.285714px;
+	color: #33323D;
+	margin-top: 1rem;
+}
+
+.navigation-button{
+	font-family: 'Public Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	color: #33323D;
+	mix-blend-mode: normal;
+	opacity: 0.5;
+}
+
+.next{
+	text-align: right;
+	border-left: 1px solid rgba(	20, 19.6, 23.9, 0.15);
+}
+
 footer{
 	display: flex;
 	flex-direction: column;

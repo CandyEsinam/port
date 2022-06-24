@@ -15,7 +15,6 @@
 
     <title>Frontend Mentor | Bookmark Project</title>
 </head>
-
 <body>
     <header>
         <!-- website logo -->
@@ -31,71 +30,71 @@
             </ul>
             <!-- https://www.w3schools.com/howto/howto_js_mobile_navbar.asp -->
             <a href="javascript:void(0);" id="nav-icon" onclick="myFunction()">
-                <i class="fa fa-bars fa-2x"></i>
+                <!-- <i class="fa fa-bars fa-2x"></i> -->
+                <img src="./assets/images/icons/hamburger.svg" alt="">
             </a>
         </nav>
     </header>
-    <!-- <main>
-        <div class="bookmark_image">
-            <img src="../images/portfolio/desktop/image-portfolio-bookmark@2x.jpg" alt="">
+    <main>
+        <div class="image hero">
         </div>
-        <div class="bookmark_links">
-            <section class="bookmark_info1">
-                <h3>Bookmark</h3>
+        <div class="main-body">
+            <hr id="first-hr">
+            <section id="project-summary">
+                <div>
+                    <h1>Bookmark</h1>
+                    <p>
+                        This project required me to build a fully responsive landing page to the designs provided. I used
+                        HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the
+                        features section.
+                    </p> 
+                </div>
+                <em>
+                   Interaction Design / Front End Development<br>
+                    HTML / CSS / JS
+                </em>
+                <button>Visit Website</button>
+            </section>
+            <hr>
+            <section id="project-bg">
+                <h2>Project Background</h2>
                 <p>
-                    This project required me to build a fully responsive landing page to the designs provided. I used
-                    HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the
-                    features section.
+                    This project was a front-end challenge from Frontend Mentor. It’s a platform that
+                    enables you to practice building websites to a design and project brief. Each challenge
+                    includes mobile and desktop designs to show how the website should look at different
+                    screen sizes. Creating these projects has helped me refine my workflow and solve
+                    real-world coding problems. I’ve learned something new with each project, helping
+                    me to improve and adapt my style.
                 </p>
-
-                <div><a href="http://">Interaction Design / Front End Development</a></div>
-                <div><a href="http://">HTML / CSS / JS</a></div>
-                <div class="visit"><a href="http://">VISIT WEBSITE</a></div>
-
             </section>
-            <section class="bookmark_info2">
-                <div class="project_background">
-                    <h3>Project Background</h3>
-                    <p>
-                        This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to
-                        practice building websites to a design and project brief. Each challenge includes mobile and
-                        desktop designs to show how the website should look at different screen sizes. Creating these
-                        projects has helped me refine my workflow and solve real-world coding problems. I’ve learned
-                        something new with each project, helping me to improve and adapt my style.
-                    </p>
+            <section id="static-preview">
+                <h2>Static Previews</h2>
+                <div class="image preview-1">
                 </div>
-                <div class="static_previews">
-                    <h3>
-                        Static Previews
-                    </h3>
-                    <img src="../images/portfolio/desktop/image-portfolio-bookmark.jpg" alt="">
-                    <p>
-
-                    </p>
-
+                <div class="image preview-2">
                 </div>
-
-
             </section>
         </div>
-        <div class="prev_next">
-            <div class="prev">
-                <label for="">
-                    <h3>Manage</h3>
-                </label>
-                <a href="">Previous Project</a>
-
-            </div>
-            <div class="next">
-                <label for="">
-                    <h3>Insure</h3>
-                </label>
-                <a href="">Next Project</a>
-            </div>
-
-        </div>
-
-    </main> -->
+        <table>
+            <tr>
+                <td class="prev">
+                    <a href="./manage.html">
+                    <img src="../images/icons/arrow-left.svg" alt="">    
+                    <div class="project-name">Manage</div> 
+                    <div class="navigation-button">Previous Project</div>
+                    </a>
+                </td>                
+                <td class="next">
+                <a href="./insure.html">
+                    <img src="../images/icons/arrow-right.svg" alt="">
+                    <div class="project-name">Insure</div> 
+                    <div class="navigation-button">Next Project</div>
+                </a>
+                </td>
+            </a>
+            </tr>
+        </table>
+    </main>
     <footer>
         <div id="footnote">
             <strong>
@@ -103,9 +102,11 @@
                 a project together?
             </strong>
             <hr>
-            <button id="contact">
+            <a href="./contact.html">
+                <button id="contact">
                 CONTACT ME
-            </button>
+                </button>
+            </a>  
         </div>
         <div id="main-footer-container">
             <div id="main-footer">

@@ -4,7 +4,7 @@ html {
 
 #down-arrow {
   fill: none;
-  stroke: #5FB4A2;
+  stroke: #5fb4a2;
   fill-rule: evenodd;
 }
 
@@ -14,11 +14,11 @@ html {
 
 .about-me-btn:hover {
   cursor: pointer;
-  background-color: #5FB4A2;
+  background-color: #5fb4a2;
 }
 
 .about-me-btn:hover #down-arrow {
-  stroke: #FFF;
+  stroke: #fff;
 }
 
 /* mobile */
@@ -50,14 +50,14 @@ strong {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-column-gap: 1rem;
-          column-gap: 1rem;
+  column-gap: 1rem;
   padding: 1rem;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: #203a4c;
   font-family: "Public Sans";
   font-style: normal;
@@ -129,10 +129,10 @@ h2 {
     background-size: cover;
   }
   .homepage-img {
-    width: 340px;
-    height: 720px;
+    width: 100%;
+    height: 680px;
     background-image: url("../../images/homepage/desktop/image-homepage-profile@2x.jpg");
-    background-position: -200px;
+    /* background-position: -200px; */
   }
   .about-me-container {
     display: -webkit-box;
@@ -141,6 +141,12 @@ h2 {
   }
   .about-me-container > :nth-child(2) {
     margin-left: 100px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+  .about-me-container > :nth-child(2) > p {
+    font-size: 20px;
+    line-height: 2;
   }
   #intro {
     width: 36%;

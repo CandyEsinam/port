@@ -19,7 +19,9 @@
     <header>
         <!-- website logo -->
         <div class="main-logo">
-            <img src="./assets/images/logo.svg" alt="site logo" />
+            <a href="./index.html">
+                <img src="./assets/images/logo.svg" alt="site logo" />
+            </a>
         </div>
         <!-- begining primary navagtion -->
         <nav id="primary-nav">
@@ -34,9 +36,8 @@
                     <li class="nav-list-item">Contact Me</li>
                 </a>
             </ul>
-            <!-- https://www.w3schools.com/howto/howto_js_mobile_navbar.asp -->
+
             <a href="javascript:void(0);" id="nav-icon" onclick="myFunction()">
-                <!-- <i class="fa fa-bars fa-2x"></i> -->
                 <img src="./assets/images/icons/hamburger.svg" alt="">
             </a>
         </nav>
@@ -78,9 +79,11 @@
                     I love being out in nature whether that’s going for a walk, run or cycling. I’d love
                     you to check out my work.
                 </p>
-                <button class="go-to-portfolio-btn">
-                    GO TO PORTFOLIO
-                </button>
+                <form action="./assets/pages/porfolio.html">
+                    <button class="go-to-portfolio-btn">
+                        GO TO PORTFOLIO
+                    </button>
+                </form>
                 <hr id="last-hr">
             </div>
         </div>

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../custom/css/contact.css" />
     <!-- end of css reference -->
     <title>Frontend Mentor | Contact Me</title>
+
 </head>
 
 <body>
@@ -84,37 +85,21 @@
                 <div class="col">
                     <form id="contact_form">
                         <label for="name">Name</label>
-                        <input type="text" placeholder="Jane Appleseed" id="name" />
+                        <input type="text" placeholder="Jane Appleseed" id="name" value="" onfocus="clearField()" />
+                        <p id="name-error"></p>
 
                         <label for="mail">Email Address</label>
-                        <input type="email" placeholder="email@example.com" id="mail" />
+                        <input type="email" placeholder="email@example.com" id="mail" value="" onfocus="clearField()" />
+                        <p id="mail-error"></p>
 
                         <label for="msg">Messege</label>
-                        <textarea id="msg">How Can I Help?</textarea>
+                        <textarea id="msg" placeholder="How Can I Help?" value="" onfocus="clearField()"></textarea>
+                        <p id="msg-error"></p>
+                        <input type="button" value="SEND MESSAGE" id="send-btn" onclick="validation()">
                     </form>
                 </div>
             </div>
         </section>
-        <!-- Home
-    Portfolio
-    Contact Me
-            
-    
-
-    
-
-    
-
-    Name
-    Jane Appleseed
-
-    Email Address
-    email@example.com
-
-    Message
-    How can I help?
-
-    Send Message -->
     </main>
     <footer>
         <div id="footnote">
@@ -175,6 +160,7 @@
             </div>
         </div>
     </footer>
+    <script src="../custom/js/form_validation.js"></script>
 </body>
 
 </html>

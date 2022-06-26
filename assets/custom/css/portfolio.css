@@ -2,91 +2,90 @@
 @import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans&display=swap");
 
 main {
-    display: flex;
-    flex-direction: column;
-    row-gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
 }
 
 .portfolio-container {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  margin: 60px 0;
 }
 
-.portfolio-image {
-    width: 100%;
-}
+/* .portfolio-image {
+  width: auto;
+  height: 100%;
+} */
 
 .portfolio-text {
-    display: flex;
-    flex-direction: column;
-    row-gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
 }
 
 .portfolio-text h2 {
-    font-family: 'Ibarra Real Nova';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 42px;
-    letter-spacing: -0.357143px;
-    color: #33323D;
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 2;
+  letter-spacing: -0.357143px;
+  color: #33323d;
 }
 
-.portfolio-text p {
-    font-family: 'Public Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 30px;
-    color: #33323D;
-    mix-blend-mode: normal;
-    opacity: 0.8;
+.portfolio-text > p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 2;
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.8;
 }
 
 /*desktop */
 @media screen and (min-width: 1024px) {
-   hr {
+  hr {
     display: block;
-   }
-   
-   .portfolio-image {
+  }
+
+  /* .portfolio-image {
     width: 55%;
     height: 27rem;
-   }
+  } */
 
-   .portfolio-text {
-    width: 35%;
-   }
+  .portfolio-text {
+    width: 50%;
+  }
 
-
-   .insure-top-hr, .bookmark-bottom-hr {
-        display: none;
-   } 
+  .insure-top-hr,
+  .bookmark-bottom-hr {
+    display: none;
+  }
 }
 
-
 /* tablet*/
- @media (min-width: 480px) {
-    .portfolio-container {
-        flex-direction: row;
-        column-gap: 10%;       
- }
+@media (min-width: 480px) {
+  .portfolio-container {
+    flex-direction: row;
+    column-gap: 10%;
+  }
 
- .portfolio-image {
-    width: 45%;
-    height: 18rem;
+  .portfolio-image {
+    width: 50%;
+    height: 440px;
     align-self: center;
- }
+  }
 
- .fylo, .bookmark {
+  .fylo,
+  .bookmark {
     flex-direction: row-reverse;
- }
+  }
 
- .portfolio-text {
+  .portfolio-text {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    
- }
-
- }
+  }
+}

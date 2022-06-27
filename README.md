@@ -1,6 +1,6 @@
 # port
 
-This is Amalitech portfolio project (Communucation &amp; Development) Scrum initiative.
+This is a Minimalist Portfolio Wedsite. A commununication and development group project, Scrum initiative.
 
 Designs: https://www.figma.com/file/RlbB2sZYZx9pgj8CMz7tzP/minimalist-portfolio-website?node-id=0%3A1
 

@@ -1,11 +1,12 @@
 # port
 
-This is a Minimalist Portfolio Wedsite. A commununication and development group project, Scrum initiative.
+This is a Minimalist Portfolio Website. A commununication and development group project, Scrum initiative.
 
 Designs: https://www.figma.com/file/RlbB2sZYZx9pgj8CMz7tzP/minimalist-portfolio-website?node-id=0%3A1
 
 URL: https://candyesinam.github.io/port/
 
+Netlify: https://hostport.netlify.app/
 
 File Structure:
 ```

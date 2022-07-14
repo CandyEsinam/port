@@ -13,6 +13,23 @@
     <link rel="stylesheet" href="./assets/custom/css/root.css" />
     <link rel="stylesheet" href="./assets/custom/css/index.css" />
     <!-- end of stylesheet links -->
+    <script>
+        const myFunction = () => {
+            let x = document.getElementById("mobileNav");
+            let menuIcon = document.getElementById("menu_icon");
+            x.classList.add("mobileNavStyle");
+
+            if (x.style.display === "block") {
+                x.style.display = "none";
+                menuIcon.src = "./assets/images/icons/hamburger.svg";
+            } else {
+                x.style.display = "block";
+                menuIcon.src = "./assets/images/icons/icon-cancel.svg";
+
+
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -37,11 +54,26 @@
             <!-- https://www.w3schools.com/howto/howto_js_mobile_navbar.asp -->
             <a href="javascript:void(0);" id="nav-icon" onclick="myFunction()">
                 <!-- <i class="fa fa-bars fa-2x"></i> -->
-                <img src="./assets/images/icons/hamburger.svg" alt="">
+                <img src="./assets/images/icons/hamburger.svg" alt="" id="menu_icon">
             </a>
         </nav>
+
     </header>
+    <section id="mobileNav">
+        <ul>
+            <a href="./index.html">
+                <li class="nav-list-item">Home</li>
+            </a>
+            <a href="./assets/pages/porfolio.html">
+                <li class="nav-list-item">Portfolio</li>
+            </a>
+            <a href="./assets/pages/contact.html">
+                <li class="nav-list-item">Contact Me</li>
+            </a>
+        </ul>
+    </section>
     <main>
+
         <div class="hero image">
         </div>
         <div>

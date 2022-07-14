@@ -18,10 +18,10 @@
             let x = document.getElementById("mobileNav");
             let menuIcon = document.getElementById("menu_icon");
             x.classList.add("mobileNavStyle");
+            menuIcon.src = "./assets/images/icons/hamburger.svg";
 
             if (x.style.display === "block") {
                 x.style.display = "none";
-                menuIcon.src = "./assets/images/icons/hamburger.svg";
             } else {
                 x.style.display = "block";
                 menuIcon.src = "./assets/images/icons/icon-cancel.svg";
@@ -55,7 +55,8 @@
             </ul>
 
             <a href="javascript:void(0);" id="nav-icon" onclick="myFunction()">
-                <img src="./assets/images/icons/hamburger.svg" alt="">
+                <!-- <i class="fa fa-bars fa-2x"></i> -->
+                <img src="./assets/images/icons/hamburger.svg" alt="" id="menu_icon">
             </a>
         </nav>
 
